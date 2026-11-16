@@ -1,0 +1,72 @@
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created, ready for development
+#   - in-progress: Developer actively working on implementation
+#   - review: Implementation complete, ready for review
+#   - done: Story completed
+
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+
+# Action Item Status:
+#   - open: Committed during a retrospective, not yet addressed
+#   - in-progress: Actively being worked on
+#   - done: Completed
+
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when its first story starts (via build's sprint sync)
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates the next story after the previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+# - Retrospective appends its action items to action_items; the status view surfaces open ones
+generated: 11-15-2026 21:48
+last_updated: 11-15-2026 21:57
+project: bmad-course
+project_key: NOKEY
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+development_status:
+  epic-1: backlog
+  1-1-使用预配账号登录: backlog
+  1-2-登记设备与补填资料: backlog
+  1-3-按时段和显存查卡: backlog
+  1-4-查看冲突和交接风险: backlog
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-从查卡结果发起用卡申请: backlog
+  2-2-提交并确认提前预约: backlog
+  2-3-申请立即使用-gpu: backlog
+  2-4-修改预约与换卡: backlog
+  2-5-取消预约: backlog
+  2-6-登记开始与宽限期: backlog
+  2-7-更新预计结束与登记释放: backlog
+  2-8-申请续用: backlog
+  2-9-到期未释放与提醒: backlog
+  2-10-查询原请求与重试: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-主动入队与名额校验: backlog
+  3-2-按可交接空档匹配: backlog
+  3-3-生成预留与站内领取通知: backlog
+  3-4-领取复检与登记开始: backlog
+  3-5-取消等待与超时处理: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-预览计划维护影响: backlog
+  4-2-计划维护协调与生效: backlog
+  4-3-设备故障-维护到点与保序恢复: backlog
+  4-4-释放核实与管理员代登记: backlog
+  4-5-调整他人安排与管理员回避: backlog
+  epic-4-retrospective: optional
